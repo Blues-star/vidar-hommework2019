@@ -1,0 +1,5 @@
+const char* str1 = "Hello, World!"; 
+首先是定义了一个常量指针，指向一个字符串字面量的地址，
+char str2[] = "Hello, World!";
+是新建了一个str2的字符串数组，长度为hello world+1，分配内存空间后将hello world的值一一填到空间中
+实际上是str2[] = {'H','e','l'...}，即数组大括号初始化器的的语法糖。
